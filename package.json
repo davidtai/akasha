@@ -1,7 +1,7 @@
 {
   "name": "akasha",
   "version": "0.0.2",
-  "description": "Localstorage with Cookie fallback",
+  "description": "Store the ethereal",
   "main": "lib/",
   "scripts": {
     "prepublish": "cake build-min"
