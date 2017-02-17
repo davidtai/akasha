@@ -32,7 +32,7 @@ task 'build', 'build project', (cb) ->
     return done err if err?
     fs.writeFile settings.name + '.js', (bundle.toString opts), 'utf8', done
 
-task 'build-min', 'build project', ['build'], ->
+task 'build:min', 'build project', ['build'], ->
   exec "uglifyjs #{settings.name}.js --compress --mangle --lint=false > #{settings.name}.min.js"
 
 task 'watch', 'watch for changes and recompile project', ->

@@ -4,7 +4,7 @@
   "description": "Store the ethereal",
   "main": "lib/",
   "scripts": {
-    "prepublish": "cake build-min"
+    "prepublish": "cake build:min"
   },
   "repository": {
     "type": "git",
