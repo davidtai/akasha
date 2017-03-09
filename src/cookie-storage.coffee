@@ -22,4 +22,3 @@ export default do ->
     for k in ks
       cookies.remove k
     cookies.remove key '_keys'
-

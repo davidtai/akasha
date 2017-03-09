@@ -54,7 +54,7 @@
     "uglify-js": "2.8.7"
   },
   "dependencies": {
-    "es-cookies": "2.1.10",
+    "es-cookies": "2.1.11",
     "es-md5": "2.7.2"
   }
 }
