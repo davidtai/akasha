@@ -7,7 +7,7 @@ export default (backend) ->
       JSON.parse store.getItem k
     catch err
       console.error 'Unable to parse', k
-      {}
+      undefined
 
   set: (k, v) ->
     store.setItem k, JSON.stringify v
