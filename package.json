@@ -34,6 +34,8 @@
   },
   "homepage": "https://github.com/davidtai/akasha#readme",
   "devDependencies": {
+    "cake-bundle": "0.2.2",
+    "cake-outdated": "0.1.13",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
