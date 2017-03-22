@@ -6,7 +6,8 @@
   "module": "dist/akasha.mjs",
   "js:next": "dist/akasha.mjs",
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "scripts": {
     "prepublish": "cake build"
