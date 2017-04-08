@@ -10,10 +10,7 @@ task 'clean', 'clean project', ->
   exec 'rm -rf lib'
 
 task 'build', 'build project', ->
-  bundle.write
-    entry:    'src/index.coffee'
-    external: true
-    formats: ['cjs', 'es']
+  bundle.write entry: 'src/index.coffee'
 
 task 'watch', 'watch for changes and recompile project', ->
   watch 'src/*.coffee', ->
