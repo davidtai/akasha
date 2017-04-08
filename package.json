@@ -45,7 +45,7 @@
     "shortcake": "1.2.8"
   },
   "dependencies": {
-    "es-cookies": "2.1.12",
+    "es-cookies": "2.1.13",
     "es-md5": "2.7.2"
   }
 }
