@@ -40,8 +40,8 @@
     "cake-publish": "0.1.10",
     "cake-test": "0.1.0",
     "cake-version": "0.1.15",
-    "coffee-script": "1.12.4",
-    "handroll": "0.13.1",
+    "coffee-script": "1.12.5",
+    "handroll": "0.13.4",
     "shortcake": "1.2.8"
   },
   "dependencies": {
