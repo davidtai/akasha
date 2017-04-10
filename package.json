@@ -10,7 +10,7 @@
     "src/"
   ],
   "scripts": {
-    "prepublishOnly": "cake build"
+    "prepublishOnly": "sake build"
   },
   "repository": {
     "type": "git",
