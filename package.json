@@ -1,6 +1,6 @@
 {
   "name": "akasha",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Cross-browser storage with cookie-based fallback. Inspired by [store.js](https://github.com/marcuswestin/store.js/).",
   "main": "lib/akasha.js",
   "module": "lib/akasha.mjs",
