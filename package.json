@@ -10,16 +10,22 @@
     "src/"
   ],
   "scripts": {
-    "prepublishOnly": "sake build"
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake build",
+    "test": "sake test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidtai/akasha.git"
   },
   "keywords": [
-    "store",
-    "localstorage",
-    "cookie"
+    "cookie",
+    "cookies",
+    "localStorage",
+    "sessionStorage",
+    "storage",
+    "store"
   ],
   "author": "David Tai",
   "license": "MIT",
