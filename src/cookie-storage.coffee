@@ -8,11 +8,11 @@ export default do ->
   get: (k) ->
     cookies.getJSON key k
 
-  set: (k, v) ->
+  set: (k, v, opts) ->
     ks = (cookies.getJSON key '_keys') ? []
     ks.push k
     cookies.set (key '_keys'), ks
-    cookies.set (key k), v
+    cookies.set (key k, opts), v
 
   remove: (k) ->
     cookies.remove key k

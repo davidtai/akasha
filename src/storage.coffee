@@ -9,7 +9,7 @@ export default (backend) ->
       console.error 'Unable to parse', k
       undefined
 
-  set: (k, v) ->
+  set: (k, v, opts) ->
     store.setItem k, JSON.stringify v
 
   remove: (k) ->
