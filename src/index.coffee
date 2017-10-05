@@ -1,5 +1,6 @@
 import cookieStorage  from './cookie-storage'
 import localStorage   from './local-storage'
+import pretendStorage from './pretend-storage'
 
 supported = (storage) ->
   try
@@ -14,5 +15,7 @@ supported = (storage) ->
 export default do ->
   if supported localStorage
     localStorage
-  else
+  else if supported cookieStorage
     cookieStorage
+  else
+    pretendStorage

@@ -1,6 +1,18 @@
 export default (backend) ->
   root  = if typeof window == 'undefined' then global else window
-  store = root[backend+'Storage']
+  try
+    store = root[backend+'Storage']
+  catch err
+    return {
+      get: ->
+        undefined
+      set: ->
+        undefined
+      remove: ->
+        undefined
+      clear: ->
+        undefined
+    }
 
   get: (k) ->
     try
