@@ -2,7 +2,7 @@ import cookies from 'es-cookies'
 import md5     from 'es-md5'
 
 export default do ->
-  key = (k) -> "#{k}_#{md5(window.location.host)}"
+  key = (k) -> "#{k}"
 
   get: (k) ->
     cookies.getJSON key k

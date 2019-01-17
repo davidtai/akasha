@@ -4,8 +4,7 @@ import md5     from 'es-md5'
 export default do ->
   pretendStorage = {}
 
-  postFix = md5 window.location.host
-  key = (k) -> "#{k}_#{postFix}"
+  key = (k) -> "#{k}"
 
   get: (k) ->
     pretendStorage[key(k)]
